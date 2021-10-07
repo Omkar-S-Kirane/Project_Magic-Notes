@@ -51,19 +51,24 @@
 
     <div class="container my-3">
       <h1>Welcome to Magic Notes...</h1>
-
-      <div class="card mx-2 my-2">
+     
         <!-- <img src="..." class="card-img-top" alt="..."> -->
         <div class="card-body">
-          <h5 class="card-title">Add a Note...</h5>
-          <p class="card-text">
-            Add Your Notes Below....
+          <div class="card mx-2 my-2">
+            <div class="form-group mx-3 my-3">
+              <!-- <label for="exampleInputEmail1" class="form-label">Email address</label> -->
+              <h5 class="card-title">Add a title...</h5>
+              <input type="text" class="form-control" id="title" aria-describedby="enter title...">
+              <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+            </div>          
+          <p class="card-text mx-3 my-2">
+           <b>Add Your Notes Below....</b> 
           </p>
-          <div class="mb-3">
+          <div class="form-group mx-3 my-3">
             <!-- <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label> -->
             <textarea class="form-control" id="addTxt" rows="3"></textarea>
           </div>
-          <button class="btn btn-primary" id="addBtn">Add Notes</button>
+          <button class="btn btn-primary mx-3 my-3" id="addBtn">Add Notes</button>
         </div>
       </div><hr>
         <h1> Your Notes: </h1><hr>
